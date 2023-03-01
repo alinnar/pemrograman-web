@@ -8,27 +8,33 @@
 <h3>Formulir Pendaftaran</h3>
 <form action="" method="post">
 <table>
+
+<!---Tambahkan "pattern="[a-zA-z\s]+" untuk input nama agar hanya dapat diketikkan huruf saja-->
 <tr>
   <td>Nama</td>
-  <td>:<input type="text" name="nama" placeholder="Masukkan Nama Anda" size="25" required/></td>
+  <td>:<input type="text" name="nama" pattern="[a-zA-z\s]+" placeholder="Masukkan Nama Anda" size="25" required/></td>
 </tr>
 
+<!--Input Usia-->
 <tr>
   <td>Usia</td>
   <td>:<input type="number" min="17" max="30" name="Username" size="25" required/> (Usia min 17-30 tahun) </td>
 </tr>
 
+<!--Input Email-->
 <tr>
     <td>Email</td>
-    <td>:<input type="text" name="Email" placeholder="nama_email@host.com" size="25" required/></td>
+    <td>:<input type="email" name="Email" placeholder="nama_email@host.com" size="25" required/></td>
 </tr>
 
+<!--Input Web-->
 <tr>
     <td>Web</td>
     <td>:<input type="url" name="web" placeholder="http://" size="25" required/></td>
   </tr>
 
-  <tr>
+<!--Tambahkan "minlength=..." agar membatasi karakter yang di input-->
+<tr>
     <td>Password</td>
     <td>:<input type="password" name="Password" minlength="8" placeholder="Semua karakter, min 8" size="25" required/></td>
   </tr>
