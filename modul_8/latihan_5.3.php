@@ -10,7 +10,7 @@
     <?php
 
     for ($i = 0; $i < 10; $i++){
-        eecho $i;
+        echo $i;
     }
 
     ?>

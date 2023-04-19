@@ -14,7 +14,7 @@
     $b = 5;
 
     if ($a > $b){
-        echo 'a lebiih besar dari b';
+        echo 'a lebih besar dari b';
     }else {
         echo 'a TIDAK lebih besar dari b';
     }

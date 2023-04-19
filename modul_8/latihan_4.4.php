@@ -12,7 +12,7 @@
     $i = 0;
 
     if ($i == 0) {
-        echo "i equals 0";
+        echo "i equals 0 ";
     }elseif ($i == 1) {
         echo "i equals 1";
     }elseif ($i == 2) {
@@ -22,7 +22,7 @@
     // Ekuivalen, dengan pendekatan switch
     switch ($i) {
         case 0:
-            echo "i equals 0";
+            echo " i equals 0";
             break;
         case 1:
             echo "i equals 1";

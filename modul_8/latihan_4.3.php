@@ -17,7 +17,7 @@
     }elseif ($a == $b) {
         echo 'a sama dengan b';
     }else{
-        echo 'a kurang dari b'
+        echo 'a kurang dari b';
     }
 
     ?>
