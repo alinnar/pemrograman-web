@@ -10,5 +10,5 @@
     } else{
         echo "<h1> Cookie 'full_name' TIDAK ADA </h1>";
     }
-    echo "<h2> <a href='cookies3.php'> KLIK disini </a> untuk menghaous cookies. </h2>";
+    echo "<h2> <a href='cookies3.php'> KLIK disini </a> untuk menghapus cookies. </h2>";
 ?>
