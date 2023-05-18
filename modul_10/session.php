@@ -10,9 +10,10 @@
                 //menuju ke halaman pemeriksaan session
                 echo "<h1> Kamu Berhasil LOGIN! </h1>";
                 echo "<h2><a href='session2.php'> Klik disini</a> untuk menuju ke halaman pemeriksaan session</h2>";
-            } // TAMBAH KONDISI JIKA GAGAL
-    }
-    else {
+            } else { // jika gagal log in
+             echo "<br><p align=center> Login Gagal";
+            }
+        }
         ?>
         <html>
             <head>
@@ -27,5 +28,3 @@
                 </form>
             </body>
             </html>
-        <?php
-    } ?>
