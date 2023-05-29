@@ -82,3 +82,4 @@ if (!isset($_SESSION['login'])) {
             <a href="studikasus.php" class="btn">Logout</a>
             </div>
 </body>
+</html>
