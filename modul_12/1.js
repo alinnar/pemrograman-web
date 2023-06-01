@@ -1,0 +1,1 @@
+alert("selamat belajar javascript");
